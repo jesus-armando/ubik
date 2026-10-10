@@ -1,0 +1,235 @@
+{
+ "tienda": "S012",
+ "fecha": "2026-03-03",
+ "seccion": 1,
+ "posiciones": [
+  {
+   "posicion": "R1-P1",
+   "repisa": "R1",
+   "sku_planograma": "SKU-100664",
+   "sku_fisico": "SKU-100664",
+   "frentes_fisicos": 3,
+   "etiqueta": {
+    "visible": true,
+    "sku": "SKU-100664",
+    "nombre": "Original Coffee Cake Muffin",
+    "precio": 7.09,
+    "upc": "071010066409",
+    "vigente_desde": "2026-02-01"
+   },
+   "error": {
+    "id": 1,
+    "tipo": "precio_anterior",
+    "descripcion": "Etiqueta con precio anterior US$7.09 (vigente 7.69)"
+   }
+  },
+  {
+   "posicion": "R1-P2",
+   "repisa": "R1",
+   "sku_planograma": "SKU-100104",
+   "sku_fisico": "SKU-100104",
+   "frentes_fisicos": 3,
+   "etiqueta": {
+    "visible": true,
+    "sku": "SKU-100104",
+    "nombre": "2 Lbs. Coffee",
+    "precio": 24.99,
+    "upc": "071010010402",
+    "vigente_desde": "2026-03-01"
+   },
+   "error": null
+  },
+  {
+   "posicion": "R1-P3",
+   "repisa": "R1",
+   "sku_planograma": "SKU-101809",
+   "sku_fisico": "SKU-101809",
+   "frentes_fisicos": 3,
+   "etiqueta": {
+    "visible": true,
+    "sku": "SKU-101809",
+    "nombre": "Caramel Iced Coffee",
+    "precio": 4.59,
+    "upc": "071010180907",
+    "vigente_desde": "2026-02-01"
+   },
+   "error": {
+    "id": 2,
+    "tipo": "precio_anterior",
+    "descripcion": "Precio anterior US$4.59 (vigente 4.99)"
+   }
+  },
+  {
+   "posicion": "R1-P4",
+   "repisa": "R1",
+   "sku_planograma": "SKU-100506",
+   "sku_fisico": "SKU-100506",
+   "frentes_fisicos": 1,
+   "etiqueta": {
+    "visible": true,
+    "sku": "SKU-100506",
+    "nombre": "12 Bagels",
+    "precio": 16.99,
+    "upc": "071010050606",
+    "vigente_desde": "2026-03-01"
+   },
+   "error": {
+    "id": 8,
+    "tipo": "frentes_bajos",
+    "descripcion": "1 frente de 3 esperados"
+   }
+  },
+  {
+   "posicion": "R2-P1",
+   "repisa": "R2",
+   "sku_planograma": "SKU-100292",
+   "sku_fisico": "SKU-100292",
+   "frentes_fisicos": 3,
+   "etiqueta": {
+    "visible": true,
+    "sku": "SKU-100292",
+    "nombre": "Oatmeal",
+    "precio": 4.29,
+    "upc": "071010029206",
+    "vigente_desde": "2026-03-01"
+   },
+   "error": null
+  },
+  {
+   "posicion": "R2-P2",
+   "repisa": "R2",
+   "sku_planograma": "SKU-100601",
+   "sku_fisico": "SKU-100601",
+   "frentes_fisicos": 3,
+   "etiqueta": {
+    "visible": false
+   },
+   "error": {
+    "id": 3,
+    "tipo": "etiqueta_faltante",
+    "descripcion": "Sin etiqueta"
+   }
+  },
+  {
+   "posicion": "R2-P3",
+   "repisa": "R2",
+   "sku_planograma": "SKU-100131",
+   "sku_fisico": "SKU-100131",
+   "frentes_fisicos": 3,
+   "etiqueta": {
+    "visible": true,
+    "sku": "SKU-100936",
+    "nombre": "French Toast Bagel",
+    "precio": 2.39,
+    "upc": "071010093603",
+    "vigente_desde": "2026-03-01"
+   },
+   "error": {
+    "id": 9,
+    "tipo": "etiqueta_otro_sku",
+    "descripcion": "Etiqueta de French Toast Bagel sobre Bagel W Butter"
+   }
+  },
+  {
+   "posicion": "R2-P4",
+   "repisa": "R2",
+   "sku_planograma": "SKU-101664",
+   "sku_fisico": "SKU-101664",
+   "frentes_fisicos": 3,
+   "etiqueta": {
+    "visible": true,
+    "sku": "SKU-100506",
+    "nombre": "12 Bagels",
+    "precio": 16.99,
+    "upc": "071010050606",
+    "vigente_desde": "2026-03-01"
+   },
+   "error": {
+    "id": 4,
+    "tipo": "etiqueta_otro_sku",
+    "descripcion": "Etiqueta de 12 Bagels sobre Chocolate Chunk Cookie"
+   }
+  },
+  {
+   "posicion": "R3-P1",
+   "repisa": "R3",
+   "sku_planograma": "SKU-100075",
+   "sku_fisico": "SKU-100075",
+   "frentes_fisicos": 0,
+   "etiqueta": {
+    "visible": true,
+    "sku": "SKU-100075",
+    "nombre": "Tuna Salad Wrap",
+    "precio": 8.99,
+    "upc": "071010007501",
+    "vigente_desde": "2026-03-01"
+   },
+   "error": {
+    "id": 5,
+    "tipo": "hueco_con_inventario",
+    "descripcion": "Hueco; el sistema dice 6 piezas al cierre"
+   }
+  },
+  {
+   "posicion": "R3-P2",
+   "repisa": "R3",
+   "sku_planograma": "SKU-100599",
+   "sku_fisico": "SKU-100599",
+   "frentes_fisicos": 0,
+   "etiqueta": {
+    "visible": true,
+    "sku": "SKU-100599",
+    "nombre": "8 Donut Holes",
+    "precio": 4.49,
+    "upc": "071010059906",
+    "vigente_desde": "2026-03-01"
+   },
+   "error": {
+    "id": 6,
+    "tipo": "hueco_agotado",
+    "descripcion": "Hueco; el sistema dice 0 (agotado real)"
+   }
+  },
+  {
+   "posicion": "R3-P3",
+   "repisa": "R3",
+   "sku_planograma": "SKU-102560",
+   "sku_fisico": "SKU-102199",
+   "frentes_fisicos": 3,
+   "etiqueta": {
+    "visible": true,
+    "sku": "SKU-102560",
+    "nombre": "Bacon Roll Up",
+    "precio": 6.79,
+    "upc": "071010256008",
+    "vigente_desde": "2026-03-01"
+   },
+   "error": {
+    "id": 7,
+    "tipo": "producto_equivocado",
+    "descripcion": "Chicken Croissant sobre la etiqueta de Bacon Roll Up"
+   }
+  },
+  {
+   "posicion": "R3-P4",
+   "repisa": "R3",
+   "sku_planograma": "SKU-100936",
+   "sku_fisico": "SKU-100936",
+   "frentes_fisicos": 3,
+   "etiqueta": {
+    "visible": true,
+    "sku": "SKU-100936",
+    "nombre": "French Toast Bagel",
+    "precio": 2.39,
+    "upc": "071010093603",
+    "vigente_desde": "2026-03-01"
+   },
+   "error": null
+  }
+ ],
+ "tarjeta": {
+  "nombre": "etiqueta_otro_sku",
+  "posicion": "R2-P3",
+  "repisa": "R2"
+ }
+}

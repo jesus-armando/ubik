@@ -1,0 +1,71 @@
+/* Fuentes locales mediante @fontsource - 100% offline */
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 15, 23, 42;
+  --background-start-rgb: 248, 250, 252;
+  --background-end-rgb: 241, 245, 249;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: #f8fafc;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Cifras monetarias: misma fuente que el texto, con dígitos de ancho fijo */
+.font-tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Barras de las gráficas: crecen desde su base al aparecer */
+.barra-crece {
+  transform-origin: left center;
+  animation: barra-crece 400ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes barra-crece {
+  from {
+    transform: scaleX(0);
+  }
+}
+
+/* Soporte para accesibilidad y reducción de movimiento */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Scrollbar sutil y profesional */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

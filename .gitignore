@@ -1,0 +1,28 @@
+# Secretos: la clave de Gemini va en .env (copia .env.example)
+.env
+.env.*
+!.env.example
+
+# Python (motor-procesamiento/ tiene además su propio .gitignore)
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Node / Next.js (Road2Tech/Frontend)
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+npm-debug.log*
+
+# Herramientas locales de agentes de IA del tablero (skills de terceros, ~28 MB)
+Road2Tech/Frontend/.agents/
+Road2Tech/Frontend/.codex/
+Road2Tech/Frontend/.impeccable/
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log

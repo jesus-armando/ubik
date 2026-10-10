@@ -1,0 +1,13 @@
+posicion,seccion,repisa,sku,nombre,x_ini_cm,x_fin_cm,altura_cm,frentes_esperados
+R1-P1,1,R1,SKU-100664,Original Coffee Cake Muffin,0,30,120,3
+R1-P2,1,R1,SKU-100104,2 Lbs. Coffee,30,60,120,3
+R1-P3,1,R1,SKU-101809,Caramel Iced Coffee,60,90,120,3
+R1-P4,1,R1,SKU-100506,12 Bagels,90,120,120,3
+R2-P1,1,R2,SKU-100292,Oatmeal,0,30,75,3
+R2-P2,1,R2,SKU-100601,Pretzel Bites,30,60,75,3
+R2-P3,1,R2,SKU-100131,Bagel W Butter,60,90,75,3
+R2-P4,1,R2,SKU-101664,Chocolate Chunk Cookie,90,120,75,3
+R3-P1,1,R3,SKU-100075,Tuna Salad Wrap,0,30,30,3
+R3-P2,1,R3,SKU-100599,8 Donut Holes,30,60,30,3
+R3-P3,1,R3,SKU-102560,Bacon Roll Up,60,90,30,3
+R3-P4,1,R3,SKU-100936,French Toast Bagel,90,120,30,3

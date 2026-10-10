@@ -1,0 +1,4 @@
+# Lo archivado no se versiona (pesa varios GB); solo el índice.
+*
+!.gitignore
+!README.md

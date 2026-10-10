@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+.pytest_cache/
+# pesados o regenerables
+datasets/
+datos_entrenamiento/
+runs/
+debug/
+salida*/
+cache/
+analisis/
+video/
+yolo*.pt
+# los modelos entrenados sí se versionan (5–6 MB)
+!modelos/*.pt
+weights/
